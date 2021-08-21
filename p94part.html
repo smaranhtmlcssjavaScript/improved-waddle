@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<script src="practice.js"></script>
+</head>
+<body>
+<div class="container">
+	<center>
+		<h1 class="header">	
+			Chatter	<sup>
+		<img src="m2.png">
+		</sup>
+	</h1>
+	<div class="container-fluid idk">
+	  <div class="row content">
+		<div class="col-sm-3 sidenav">
+		  <h1 class="header">	
+			Chatter	- JOIN NOW!<sup>
+		  <img src="m2.png">
+		  </sup>
+		</h1>
+		<div class="form-group">
+			  <label >User Name:</label>
+			  <input type="text" id="user_name" class="form-control" placeholder="User Name">
+	
+			</div>
+			<button id="login_button" class="btn btn-primary" onclick="adduser();">Log in</button>
+	  <br>
+	  <img src="artboard_1.jpg" class="logo" style="width: 300px;">
+		</div>
+	
+		<div class="col-sm-9">
+		  <div>
+			<h1>Chatter</h1>
+			<h4>See What's Happening Around The World Today</h4>
+		  </div>
+		  <h4 class="smalls">RECENT POSTS</h4>
+		  <hr>
+		  <h2>I Just Got a MacBook Air!</h2>
+		  <h5><span class="glyphicon glyphicon-time"></span> Post by Kriti Sharma, Thu, July 29, 2021.</h5>
+		  <h5><span class="label label-danger">Macbook Air</span> <span class="label label-primary">Hackathon</span></h5><br>
+		  <p>Just a day or two ago I had won the Mission Mars Hackathon, completing it in the least amount of goven time and most evaluated points, the judge picked me because of the spiraling creativity, therfore giving me the title of winner and a macbook air. It just arrived today, looking forward to using it!</p>
+		  <br><br>
+		  <hr>
+		  <h2>Hackathon Winners!</h2>
+		  <h5><span class="glyphicon glyphicon-time"></span> Post by WhiteHat Jr. July 24, 2021.</h5>
+		  <h5><span class="label label-success">Hackathon</span></h5><br>
+		  <p>The Hackathon is in event where you show all of your knowledge of programming and creativity into a simple project, this event recently ended during teh second week of july, resulting in the three winners. In first place we have, Kriti Sharma from India, in second place we have Jason Middleton from Singapore, and in last place we have, Jessica Monroe from the USA. First Place has received a wonderful macbook air, second place has recieved a splendid ipad air, and third place has received a astonishing PlayStation 4! All will be notified when the next Hackathon starts, thank you.</p>
+		  <hr>
+		</div>
+	  </div>
+	</div>
+	</center>
+</div>
+
+</body>
+</html>
